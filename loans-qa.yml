@@ -1,0 +1,11 @@
+build:
+  version: "1.5"
+
+loans:
+  message: "Welcome to the cards section related to QA API"
+  contactDetails:
+    name: "Mani Kanta Chunduru Tester"
+    email: "manichunduru@gmail.com"
+  onCallSupport:
+    - (999) 777-9090
+    - (888) 666-4575

@@ -1,0 +1,21 @@
+#spring:
+#  config:
+#    activate:
+#      on-profile: "qa"
+build:
+  version: "2.0"
+
+# the below properties are used to demonstrate @Configuration approach of reading the properties
+# in the approach, first we need to create a pojo class, by defining all the properties
+# as variables inside the java class (DTO package, pojo class).
+accounts:
+  #  message represents string data type
+  message: "Welcome to EazyBank accounts related QA API's"
+  #  contactDetails represents map data type
+  contactDetails:
+    name: "Smitha Roy -  QA Lead"
+    email: "smitha@eazybank.com"
+  #    onCallSupport represents list data type
+  onCallSupport:
+    - (666) 265-3765
+    - (666) 734-8371

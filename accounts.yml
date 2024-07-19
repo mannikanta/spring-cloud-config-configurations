@@ -1,0 +1,17 @@
+build:
+  version: "3.0"
+
+# the below properties are used to demonstrate @Configuration approach of reading the properties
+# in the approach, first we need to create a pojo class, by defining all the properties
+# as variables inside the java class (DTO package, pojo class).
+accounts:
+#  message represents string data type
+  message: "Welcome to EazyBank accounts related local API's"
+#  contactDetails represents map data type
+  contactDetails:
+    name: "John Doe -  Developer"
+    email: "john@eazybank.com"
+#    onCallSupport represents list data type
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-1345

@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to the cards section related to PROD API"
+  contactDetails:
+    name: "Mani Kanta Product Owner"
+    email: "mani@prod.com"
+  onCallSupport:
+    - (999) 213-6789
+    - (888) 213-9876

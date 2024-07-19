@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to the cards section related to local API"
+  contactDetails:
+    name: "Mani Kanta Developer"
+    email: "mani@gmail.com"
+  onCallSupport:
+    - (999) 213-5435
+    - (888) 213-4575

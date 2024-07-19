@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+loans:
+  message: "Welcome to the loans section related to local API"
+  contactDetails:
+    name: "Manni Developer"
+    email: "manik418@gmail.com"
+  onCallSupport:
+    - (999) 222-5555
+    - (888) 333-8888

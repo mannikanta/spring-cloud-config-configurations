@@ -1,0 +1,11 @@
+build:
+  version: "1.5"
+
+cards:
+  message: "Welcome to the cards section related to QA API"
+  contactDetails:
+    name: "Mani Kanta Tester"
+    email: "mani@qa.com"
+  onCallSupport:
+    - (999) 213-5555
+    - (888) 213-4444
