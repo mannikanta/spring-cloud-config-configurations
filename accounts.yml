@@ -6,7 +6,7 @@ build:
 # as variables inside the java class (DTO package, pojo class).
 accounts:
 #  message represents string data type
-  message: "Welcome to EazyBank accounts related local API's"
+  message: "Welcome to EazyBank accounts related local changed API's"
 #  contactDetails represents map data type
   contactDetails:
     name: "John Doe -  Developer"
