@@ -1,0 +1,18 @@
+server:
+  port: 8070
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetchRegistry: false
+                           # by default the value of fetch registry is true, but we are mentioning as false because, I dont want the eureka server to fetch the registry details
+                           # of other microservices, the eureka server never going to call microservices, thats why it is unnessary to fetch all the registry details of microservices
+                           # thats why we are mentioning it as false. where as in individual ms(accounts, cards and loans) this value should be true.
+    registerWithEureka: false
+                           # with this property Im trying to Eureka server dont with register yourself and dont expose your details into the registry of service discovery.
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+                           # this element's url tells that where my eureka server is going to expose its functionality and other microservices they can try to connect to register
+                           # their detaisl or to discover other service details.
+                           # http://${eureka.instance.hostname}:${server.port}/eureka/ this will be replaced as http://localhose:8070/eureka (just read the elements in this yml file)
